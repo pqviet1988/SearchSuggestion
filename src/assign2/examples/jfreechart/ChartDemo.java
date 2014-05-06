@@ -22,6 +22,7 @@ public class ChartDemo {
 	 * @param args
 	 */
 	public static void main(String[] args) {
+		System.out.println("hi how are you ?");
 		 BarChart bar = new BarChart("Chart Demo","5-grams");
 		 bar.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		 bar.pack();
